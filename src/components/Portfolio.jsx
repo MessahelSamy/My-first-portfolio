@@ -1,5 +1,5 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import ContriesApp from "../assets/portfolio/ph-contrie-app.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
@@ -10,7 +10,8 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: ContriesApp,
+      href: "https://contries-app.netlify.app/",
     },
     {
       id: 2,
@@ -47,7 +48,7 @@ const Portfolio = () => {
         </p>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 px-12 sm:px-0 ">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, href }) => (
             <div key={id} className="shadow-md shadow-gray-100 rounded-lg">
               <img
                 src={src}
@@ -55,9 +56,12 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="text-gray-500 w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 hover:text-white">
-                  Demo
-                </button>
+                <a href={href} className="" target="_blank" rel="noreferrer">
+                  <button className="text-gray-500 w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 hover:text-white">
+                    Demo
+                  </button>
+                </a>
+
                 <button className="text-gray-500 w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 hover:text-white">
                   Code
                 </button>
