@@ -2,7 +2,7 @@ import React from "react";
 import ContriesApp from "../assets/portfolio/ph-contrie-app.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import todolistApp from "../assets/portfolio/ph-todolist-app.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -11,19 +11,26 @@ const Portfolio = () => {
     {
       id: 1,
       src: ContriesApp,
-      href: "https://contries-app.netlify.app/",
+      href1: "https://contries-app-yams.netlify.app/",
+      href2: "https://github.com/MessahelSamy/Contries-App",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: todolistApp,
+      href1: "https://todolist-app-yams.netlify.app/",
+      href2: "https://github.com/MessahelSamy/todolist-app",
     },
     {
       id: 3,
       src: navbar,
+      href1: "",
+      href2: "",
     },
     {
       id: 4,
       src: reactSmooth,
+      href1: "",
+      href2: "",
     },
     {
       id: 5,
@@ -48,23 +55,25 @@ const Portfolio = () => {
         </p>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 px-12 sm:px-0 ">
-          {portfolios.map(({ id, src, href }) => (
+          {portfolios.map(({ id, src, href1, href2 }) => (
             <div key={id} className="shadow-md shadow-gray-100 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className=" h-48 rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href={href} className="" target="_blank" rel="noreferrer">
-                  <button className="text-gray-500 w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 hover:text-white">
+                <a href={href1} className=" " target="_blank" rel="noreferrer">
+                  <button className="text-gray-500 w-1/2 px-6 py- m-4 duration-200 hover:scale-105 hover:text-white">
                     Demo
                   </button>
                 </a>
 
-                <button className="text-gray-500 w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105 hover:text-white">
-                  Code
-                </button>
+                <a href={href2} className=" " target="_blank" rel="noreferrer">
+                  <button className="text-gray-500 w-1/2 px-6 py- m-4 duration-200 hover:scale-105 hover:text-white">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
