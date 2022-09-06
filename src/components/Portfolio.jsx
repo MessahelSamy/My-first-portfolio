@@ -1,10 +1,10 @@
 import React from "react";
 import ContriesApp from "../assets/portfolio/ph-contrie-app2.png";
-import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import todolistApp from "../assets/portfolio/ph-todolist-app2.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+// import reactWeather from "../assets/portfolio/reactWeather.jpg";
+// import installNode from "../assets/portfolio/installNode.jpg";
 
 const Portfolio = () => {
   const portfolios = [
