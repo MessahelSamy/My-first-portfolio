@@ -26,20 +26,20 @@ const Portfolio = () => {
       href1: "",
       href2: "",
     },
-    {
-      id: 4,
-      src: reactSmooth,
-      href1: "",
-      href2: "",
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
-    },
+    // {
+    //   id: 4,
+    //   src: reactSmooth,
+    //   href1: "",
+    //   href2: "",
+    // },
+    // {
+    //   id: 5,
+    //   src: installNode,
+    // },
+    // {
+    //   id: 6,
+    //   src: reactWeather,
+    // },
   ];
 
   return (
@@ -50,7 +50,7 @@ const Portfolio = () => {
             Portfolio
           </p>
         </div>
-        <p className="flex justify-center pb-6 pt-5">
+        <p className="flex justify-center pb-32 pt-5">
           - Check out some of my work right here -
         </p>
 
@@ -60,7 +60,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className=" h-48 rounded-md duration-200 hover:scale-105"
+                className=" h-52 rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <a href={href1} className=" " target="_blank" rel="noreferrer">

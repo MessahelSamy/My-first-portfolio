@@ -16,24 +16,18 @@ function About() {
           </p>
         </div>
 
-        <p className="text-xl mt-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt odit
-          voluptatem quos ducimus minus, ipsum, culpa soluta veritatis cum,
-          delectus enim temporibus beatae. Magni ut, suscipit architecto nobis
-          laudantium perspiciatis error saepe, itaque inventore quis
-          reprehenderit pariatur autem atque esse, neque ad optio ipsum
-          repudiandae? Odio illum necessitatibus quas consequatur.
+        <p className="flex justify-center pb-6 pt-1">
+          - Hi. I'm Samy, nice to meet you. Please take a look around -
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          delectus sequi dolorum non, numquam hic illo vero quo a eos dolor
-          quibusdam quos natus quidem quod adipisci. Dolores possimus ducimus
-          illo deleniti. Soluta nemo qui, laboriosam, neque atque cumque est
-          quae exercitationem culpa cupiditate fugiat officia dolore, ipsam quam
-          natus?
+        <p className="text-xl text-center">
+          I am passionate about building excellent software that improves the
+          lives of those around me. I specialize in creating software for
+          clients ranging from individuals and small-businesses all the way to
+          large enterprise corporations. What would you do if you had a software
+          expert available at your fingertips ?
         </p>
       </div>
     </div>
