@@ -38,8 +38,8 @@ function Home() {
           <h2 className="text-4xl sm:text-7xl font-bold text-white cursor-pointer">
             <span className=" hover:text-gray-700 duration-300 pr-3 ">I'm</span>
             <span className=" hover:text-gray-700 duration-300 pr-3">a</span>
-            <span className=" hover:text-gray-700 duration-300 italic pr-3">
-              future
+            <span className=" hover:text-gray-700 duration-300  pr-3">
+              Future
             </span>
             <span className=" hover:text-gray-700 duration-300 pr-3">Full</span>
             <br />

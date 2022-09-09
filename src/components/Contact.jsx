@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
         </div>
         <p className="flex justify-center py-6">
-          Submit the form below to get in touch with me
+          - Submit the form below to get in touch with me -
         </p>
 
         <div className=" flex justify-center items-center">
